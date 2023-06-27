@@ -34,7 +34,7 @@ session_start();
             <!-- Main Content -->
             <div id="content">
 
-<!-- topbar -->
+            <!-- topbar -->
             <?php include('components/topbar.php'); ?>
 
                 <!-- Begin Page Content -->
@@ -49,16 +49,16 @@ session_start();
                         }
                         else if($_GET['page']== 'solusi-list'){
                             include('page/solusi-list.php');
-                      }
-                      else if($_GET['page']== 'gejala-add'){
-                      include('page/gejala-add.php');
-                      }
-                    else if($_GET['page']== 'solusi-add'){
-                    include('page/solusi-add.php');
-                    }
-                    else if($_GET['page']== 'user-add'){
-                    include('page/user-add.php');
-                    }
+                        }
+                        else if($_GET['page']== 'gejala-add'){
+                            include('page/gejala-add.php');
+                        }
+                        else if($_GET['page']== 'solusi-add'){
+                            include('page/solusi-add.php');
+                        }
+                        else if($_GET['page']== 'user-add'){
+                            include('page/user-add.php');
+                        }
                         else{
                             include('page/beranda.php');
                         }
